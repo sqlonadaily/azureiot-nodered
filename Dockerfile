@@ -25,7 +25,6 @@ RUN cd /opt/node-red && npm install node-red-node-mongodb
 RUN cd /opt/node-red && npm install node-red-contrib-mongodb2
 RUN cd /opt/node-red && npm install node-red-contrib-salesforce
 RUN cd /opt/node-red && npm install node-red-contrib-googlechart
-RUN cd /opt/node-red && npm install node-red-azure-iot-hub 
 RUN cd /opt/node-red && npm install node-red-contrib-azure-documentdb 
 RUN cd /opt/node-red && npm install node-red-contrib-azure-table-storage
 RUN cd /opt/node-red && npm install node-red-contrib-azure-blob-storage
