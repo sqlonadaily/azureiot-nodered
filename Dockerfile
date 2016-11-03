@@ -1,4 +1,4 @@
-FROM fedora:23
+FROM fedora:24
 MAINTAINER cloudgear10 <poke@cloudgear.io>
 RUN dnf -y update && dnf clean all
 RUN dnf install python  make git wget -y
