@@ -1,5 +1,5 @@
 FROM fedora:24
-MAINTAINER cloudgear10 <poke@cloudgear.io>
+MAINTAINER dwaiba <dwaiba@microsoft.com>
 RUN dnf -y update && dnf clean all
 RUN dnf install python  make git wget -y
 #RUN dnf install wget unzip vim -y
